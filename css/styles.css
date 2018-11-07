@@ -305,21 +305,23 @@ nav h1 a {
 		margin: 10px 5% 10px 5%;
 		width: 90%;
 	}
-	#maincontent {
-		position: absolute;
-		top: 80px;
+	.inside header {
+		position: relative;
 	}
 	.inside #map-container {
-		display: flex;
-		flex-wrap: wrap;
 		width: 100%;
 		position: relative;
 		height: 300px;
-		top: 50px;
+		top: 0;
 	}
-	#restaurant-container, #reviews-container {
-		display: flex;
-		flex-wrap: wrap;
+	.inside #footer {
+		width: 100%;
+	}
+	#restaurant-container {
+		width: 100%;
+		padding: 40px 40px 30px;
+	}
+	#reviews-container {
 		width: 100%;
 	}
 	#restaurant-address {
