@@ -226,7 +226,7 @@ nav h1 a {
   line-height: 1.1;
 	box-sizing: border-box;
 }
-#restaurant-img {
+.restaurant-picture {
 	width: 100%;
 }
 #restaurant-address {

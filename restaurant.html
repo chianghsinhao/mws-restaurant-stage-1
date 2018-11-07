@@ -36,7 +36,12 @@
     <!-- Beginning restaurant -->
     <section id="restaurant-container">
       <h1 id="restaurant-name"></h1>
-      <img id="restaurant-img">
+      <picture id="restaurant-img" class="restaurant-picture">
+        <source id="restaurant-img-large" class="restaurant-picture" media="(min-width: 800px)">
+        <source id="restaurant-img-small" class="restaurant-picture" media="(min-width: 800px)">
+        <img id="restaurant-img-fallback" class="restaurant-picture">
+      </picture>
+
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
       <table id="restaurant-hours"></table>
